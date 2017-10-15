@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+        border: double black 5px;
+        background-color: red;
+
+    }
+
+    tr:first-child {
+        background-color: chocolate
+    }
+
+    th,
+    td {
+        width: 250px;
+    }
+
+    #Sophia,
+    td {
+        position: relative;
+        left: 0px;
+        transition: all 3s linear;
+    }
+
+    #Sophia:hover {
+        background-color: aqua;
+        position: relative;
+        left: 100px;
+    }
+
+    div {
+        position: relative;
+        left: 400px;
+        border: solid;
+    }
+</style>
+
+<body>
+    <!--table row-->
+    <!--table heading-->
+    <table border>
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>YOU</td>
+            <td>666</td>
+        </tr>
+
+
+
+        <tr>
+            <td id="Sophia">Sophia</td>
+            <td>123456789</td>
+        </tr>
+        <tr>
+            <td id="Steve">Steve</td>
+            <td>987654321</td>
+        </tr>
+        <tr>
+            <td>Coral</td>
+            <td>1010101010</td>
+        </tr>
+
+
+
+    </table>
+
+</body>
+
+</html>
