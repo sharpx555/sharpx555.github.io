@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>8</title>
+    <style>
+        legend {
+            font-family: monospace;
+            font-size: 4rem;
+            text-decoration: overline underline;
+            color: royalblue;
+        }
+
+        fieldset {
+
+            border-style: groove;
+            border-color: royalblue;
+        }
+
+        h1 {
+            font-family: fantasy;
+            font-size: 2rem;
+            text-decoration: underline;
+            color: royalblue;
+        }
+
+        .comments {
+            height: 200px;
+            width: 1300px;
+            padding: 10px;
+            border: solid royalblue 5px;
+            font-family: monospace;
+            text-decoration: none;
+            font-size: 25px;
+            color: royalblue;
+            padding-left: 10px;
+        }
+
+        .submit {
+            margin-left: 1075px;
+            text-decoration: none;
+            padding: 5px;
+            border: solid transparent;
+            color: white;
+            font-size: 5rem;
+            background-color: royalblue;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+        }
+
+        summary {
+            color: royalblue;
+            font-family: fantasy;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset id="2">
+        <legend>Payment Information</legend>
+        <h1>Name</h1>
+        <input type="" placeholder="Enter Your Full Name ">
+        <h1>Email</h1>
+        <input type="" placeholder="Enter Your Email ">
+        <h1>Phone</h1>
+        <input type="" placeholder="Enter Your Phone Number ">
+        <h1>Province</h1>
+        <select name="province">
+  <option>Newfoundland and Labradour</option>
+  <option>Nova Scotia</option>
+  <option>New Brunswick</option>
+        <option>Prince Edward Island</option>
+        <option>Quebec</option>
+        <option>Ontario</option>
+        <option>Manitoba</option>
+        <option>Alberta</option>
+        <option> Saskatchewan</option>
+        <option>British Columbia</option>
+        <option>Yukon Territories</option>
+        <option>Northwest Territories</option>
+        <option>Nunavut</option>
+  </select>
+        <br>
+        <br>
+        <details>
+            <summary>Payment Options</summary>
+            <input type="radio" name='fruit'> Master Card
+            <input type="radio" name='fruit'> Visa
+            <input type="radio" name='fruit'> Paypal
+        </details>
+    </fieldset>
+
+    <input class="comments" type="" placeholder="Please Enter Comments">
+    <br>
+    <br>
+    <a class="submit" href="/me.html">Submit</a>
+    <footer>&copy; Steve Xia</footer>
+    <a href="/index.html">Back to Main Page</a>
+
+</body>
+</html>
