@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            position: relative;
+            padding: none;
+            box-sizing: border-box;
+        }
+
+        #container {
+            width: 400px;
+            height: 400px;
+            margin: 25px;
+            background-color: black;
+            box-shadow: 0, 0, 80px;
+               border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        #face {
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            top: 50px;
+            left: 50px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+
+        #eye1,
+        #eye2 {
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            bottom: 175px;
+        }
+
+        #eye1 {
+            left: 125px;
+            background-color: white;
+        }
+
+        #eye2 {
+            bottom: 225px;
+            left: 225px;
+            background-color: black;
+        }
+
+        #eyebrow1,
+        #eyebrow2 {
+            width: 70px;
+            height: 20px;
+            border-radius: 20px;
+        }
+
+        #eyebrow1 {
+            background-color: black;
+            bottom: 305px;
+            left: 120px;
+            transform: rotate(40deg);
+        }
+
+        #eyebrow2 {
+            background-color: white;
+            bottom: 325px;
+            left: 212px;
+            transform: rotate(320deg);
+        }
+
+        #small1,
+        #small2 {
+            width: 30px;
+            height: 20px;
+            border-radius: 50px;
+        }
+
+        #small1 {
+            background-color: black;
+            bottom: 350px;
+            left: 110px;
+            transform: rotate(325deg)
+        }
+
+        #small2 {
+            background-color: white;
+            bottom: 370px;
+            left: 260px;
+            transform: rotate(45deg)
+        }
+
+        #mouth {
+            width: 200px;
+            height: 100px;
+            border: solid 15px;
+            border-top-color: transparent;
+            bottom: 250px;
+            left: 100px;
+            border-bottom-left-radius: 150px;
+            border-bottom-right-radius: 150px;
+        }
+
+        #corner {
+            transform: rotate(15deg);
+            width: 45px;
+            height: 15px;
+            background-color: white;
+            bottom: 365px;
+            left: 268px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            bottom: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="face"></div>
+        <div id="eye1"></div>
+        <div id="eye2"></div>
+        <div id="eyebrow1"></div>
+        <div id="eyebrow2"></div>
+        <div id="small1"></div>
+        <div id="small2"></div>
+        <div id="mouth"></div>
+        <div id="corner"></div>
+  
+        <h1>Have A Nice Day</h1>
+    </div>
+  <br>
+   <footer>&copy; Steve Xia <br>
+        <a href="/index.html">Back to Main Page</a>
+    </footer>
+</body>
+</html>

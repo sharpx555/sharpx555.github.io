@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        p {
+            background-color: #25d869;
+            height: 50px;
+            color: white;
+            font-size: 2em;
+            line-height: 50px;
+            /*        ctrl e to change colour*/
+        }
+
+        p:before {
+            content: '';
+            background-color: red;
+            height: 50px;
+            width: 20px;
+            display: inline-block;
+
+            vertical-align: top;
+            margin-right: 10px;
+        }
+
+        p:after {
+            content: '';
+            background-color: red;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ajit_V._Pai_headshot.jpg/800px-Ajit_V._Pai_headshot.jpg);
+            background-size: cover;
+            height: 50px;
+            width: 20px;
+            display: inline-block;
+
+            vertical-align: top;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>It is ok to be silly</p>
+    <p>It is ok to do nothing</p>
+    <p>It is ok to play some games</p>
+</body>
+</html>

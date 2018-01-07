@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Position</title>
+    <style>
+        .container {
+            height: 200px;
+            background: linear-gradient(to right, red, green, blue);
+            margin-bottom: 20px;
+
+            width: 500px;
+
+            position: relative;
+        }
+
+        .item {
+            width: 200px;
+            height: 150px;
+            background-color: lime;
+            opacity: 0.5;
+        }
+
+        .relative .item {
+            position: relative;
+            right: 40px;
+        }
+
+        .absolute .item {
+            position: absolute;
+            /*        right: 40px;*/
+            left: 200px;
+        }
+
+        .fixed .item {
+            position: fixed;
+            right: 40px;
+            bottom: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container relative">
+        <div class="item"></div>
+        <div>Position</div>
+    </div>
+    <div class="container absolute">
+        <div class="item"></div>
+        <div>Position
+        </div>
+    </div>
+    <div class="container fixed">
+        <div class="item"></div>
+    </div>
+
+</body>
+
+</html>
