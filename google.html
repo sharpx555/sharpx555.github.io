@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://www.google.com/s2/favicons?domain=www.google.com">
+    <title>Google</title>
+    <style>
+        #header {
+            height: 20px;
+            padding-bottom: 170px;
+            font-family: sans-serif;
+            font-size: 10px;
+            color: grey;
+        }
+
+        #gmail {
+            margin-right: 16px;
+        }
+
+        #images {
+            margin-right: 21px;
+        }
+
+        #gmail,
+        #images {
+            font-size: 1.3em;
+            color: black;
+            margin-top: 15px;
+            float: right;
+            text-decoration: none;
+        }
+
+        #gmail:hover,
+        #images:hover,
+        #link:hover {
+            text-decoration: underline;
+        }
+
+
+
+        #squares {
+            background-image: url(/Capture.PNG);
+            display: inline-block;
+            margin-top: 13px;
+            margin-left: -8px;
+            margin-right: 21px;
+            width: 50px;
+            height: 50px;
+            background-repeat: no-repeat;
+            float: right;
+        }
+
+        #bell {
+            background-image: url(/Capture2.PNG);
+            margin-top: 9px;
+            margin-left: -30px;
+            width: 50px;
+            height: 50px;
+            background-repeat: no-repeat;
+            float: right;
+
+        }
+
+        #user {
+            background-image: url(/Capture3.PNG);
+            margin-top: 5px;
+            margin-left: -15px;
+            margin-right: 1px;
+            width: 50px;
+            height: 50px;
+            background-repeat: no-repeat;
+            float: right;
+        }
+
+        #squares:hover,
+        #bell:hover,
+        #user:hover {
+            cursor: pointer;
+        }
+
+        #google {
+            margin: auto;
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg');
+  background-size: 100%;
+            height: 92px;
+            width: 272px;
+        }
+
+        #canada {
+            color: dodgerblue;
+            font-family: sans-serif;
+            left: 215px;
+            position: relative;
+            top: 75px;
+        }
+
+        #searchbar {
+
+            height: 45px;
+            width: 500px;
+            border: solid 1px ghostwhite;
+            font-size: 15px;
+            font-family: sans-serif;
+            color: black;
+            padding-right: 60px;
+            padding-left: 15px;
+            margin-top: 20px;
+            box-shadow: 1px 2px 1px grey;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg);
+            background-repeat: no-repeat;
+            background-size: 15px;
+            background-position: 540px;
+            margin-left: 375px;
+        }
+
+        .button {
+            display: inline-block;
+            position: relative;
+            width: 127px;
+            height: 35px;
+            border: 1px solid ghostwhite;
+            background-color: ghostwhite;
+            margin-left: 550px;
+            color: grey;
+            font-weight: bold;
+            margin-right: -545px;
+            top: 30px;
+
+        }
+
+        #french {
+            position: relative;
+            font-size: small;
+            font-family: sans-serif;
+            text-align: center;
+            color: black;
+            top: 60px;
+        }
+
+        #link {
+            text-decoration: none;
+            color: blue;
+            padding-left: 4px
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div id="user"></div>
+        <div id="bell"></div>
+        <div id="squares"></div>
+        <a id="images" href="https://www.google.ca/imghp?hl=en&tab=wi&authuser=0">Images</a>
+        <a id="gmail" href="https://mail.google.com/mail/u/0/?tab=wm#inbox">Gmail</a>
+    </div>
+    <div id="google">
+        <div id="canada">Canada</div>
+    </div>
+
+    <div>
+        <input id="searchbar" >
+        <br>
+        <button class="button" >Google Search</button>
+        <button class="button" >I'm Feeling Lucky</button>
+    </div>
+    <div id="french">Google.ca offered in: <a id="link" href="">Français</a></div>
+</body>
+
+</html>
