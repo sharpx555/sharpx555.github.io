@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="http://diylogodesigns.com/blog/google-logo/">
+    <link rel="icon" href="https://www.google.ca/images/branding/product/ico/googleg_lodp.ico">
     <title>Google</title>
     <style>
         #header {
@@ -15,6 +15,14 @@
             color: grey;
         }
 
+        #header ul {
+            display: inline-block;
+        }
+
+        #header ul li {
+            display: inline-block;
+        }
+
         #gmail {
             margin-right: 16px;
         }
@@ -22,6 +30,8 @@
         #images {
             margin-right: 21px;
         }
+
+
 
         #gmail,
         #images {
@@ -32,9 +42,19 @@
             text-decoration: none;
         }
 
+        #other {
+            padding-right: 8px;
+            font-size: 1.3em;
+            color: black;
+            margin-top: 5px;
+            float: right;
+            text-decoration: none;
+        }
+
         #gmail:hover,
         #images:hover,
-        #link:hover {
+        #link:hover,
+        #other:hover {
             text-decoration: underline;
         }
 
@@ -97,7 +117,6 @@
         }
 
         #searchbar {
-            margin: auto;
             position: relative;
             height: 45px;
             width: 500px;
@@ -113,20 +132,23 @@
             background-repeat: no-repeat;
             background-size: 15px;
             background-position: 540px;
-            margin-left: 375px;
+        }
+
+        #search {
+            margin: auto;
+            text-align: center;
         }
 
         .button {
-            display: inline-block;
             position: relative;
             width: 127px;
             height: 35px;
             border: 1px solid ghostwhite;
             background-color: ghostwhite;
-            margin-left: 550px;
+            /*            margin-left: 550px;*/
             color: grey;
             font-weight: bold;
-            margin-right: -545px;
+            /*            margin-right: -545px;*/
             top: 30px;
 
         }
@@ -150,6 +172,10 @@
 
 <body>
     <div id="header">
+        <ul>
+            <li><a id="other" href="https://www.google.ca/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+            <li><a id="other" href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
+        </ul>
         <div id="user"></div>
         <div id="bell"></div>
         <div id="squares"></div>
@@ -160,7 +186,7 @@
         <div id="canada">Canada</div>
     </div>
 
-    <div>
+    <div id='search'>
         <input id="searchbar">
         <br>
         <button class="button">Google Search</button>
@@ -170,3 +196,5 @@
 </body>
 
 </html>
+
+
